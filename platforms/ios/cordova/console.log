@@ -1,0 +1,106 @@
+2014-04-11 18:48:46.099 GetOut[1335:80b] Multi-tasking -> Device: YES, App: YES
+2014-04-11 18:48:46.137 GetOut[1335:80b] Unlimited access to network resources
+2014-04-11 18:48:46.565 GetOut[1335:80b] Resetting plugins due to page load.
+2014-04-11 18:48:46.662 GetOut[1335:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/0697032B-D65A-403E-BC65-F10B420E4758/GetOut.app/www/index.html
+Terminating in response to SpringBoard's termination.
+2014-04-11 18:50:28.432 GetOut[1451:80b] Multi-tasking -> Device: YES, App: YES
+2014-04-11 18:50:28.444 GetOut[1451:80b] Unlimited access to network resources
+2014-04-11 18:50:28.650 GetOut[1451:80b] Resetting plugins due to page load.
+2014-04-11 18:50:28.696 GetOut[1451:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/0697032B-D65A-403E-BC65-F10B420E4758/GetOut.app/www/index.html
+2014-04-11 18:51:43.787 GetOut[1560:80b] Multi-tasking -> Device: YES, App: YES
+2014-04-11 18:51:43.796 GetOut[1560:80b] Unlimited access to network resources
+2014-04-11 18:51:43.982 GetOut[1560:80b] Resetting plugins due to page load.
+2014-04-11 18:51:44.020 GetOut[1560:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/EC55A1F1-F0DA-40CB-9731-8C0CB1CF7620/GetOut.app/www/index.html
+2014-04-11 18:52:56.173 GetOut[1671:80b] Multi-tasking -> Device: YES, App: YES
+2014-04-11 18:52:56.183 GetOut[1671:80b] Unlimited access to network resources
+2014-04-11 18:52:56.340 GetOut[1671:80b] Resetting plugins due to page load.
+2014-04-11 18:52:56.382 GetOut[1671:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/82F6ED85-4D74-463C-9472-B48B39B8F4BA/GetOut.app/www/index.html
+2014-04-11 18:56:14.578 GetOut[1831:80b] Multi-tasking -> Device: YES, App: YES
+2014-04-11 18:56:14.590 GetOut[1831:80b] Unlimited access to network resources
+2014-04-11 18:56:14.878 GetOut[1831:80b] Resetting plugins due to page load.
+2014-04-11 18:56:14.965 GetOut[1831:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/82F6ED85-4D74-463C-9472-B48B39B8F4BA/GetOut.app/www/index.html
+2014-04-11 19:02:34.522 GetOut[1955:80b] Multi-tasking -> Device: YES, App: YES
+2014-04-11 19:02:34.530 GetOut[1955:80b] Unlimited access to network resources
+2014-04-11 19:02:34.747 GetOut[1955:80b] Resetting plugins due to page load.
+2014-04-11 19:02:34.810 GetOut[1955:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/B4C5C280-6786-4A1C-AD3A-DDCB09AE7C5A/GetOut.app/www/index.html
+2014-04-11 19:04:49.598 GetOut[2071:80b] Multi-tasking -> Device: YES, App: YES
+2014-04-11 19:04:49.605 GetOut[2071:80b] Unlimited access to network resources
+2014-04-11 19:04:49.741 GetOut[2071:80b] Resetting plugins due to page load.
+2014-04-11 19:04:49.777 GetOut[2071:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A54A2154-2B91-4B31-895D-B99A18BADAB6/GetOut.app/www/index.html
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSetFillColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSetStrokeColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSaveGState: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSetFlatness: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextAddPath: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextDrawPath: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextRestoreGState: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSaveGState: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSetFlatness: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextAddPath: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextDrawPath: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextRestoreGState: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSetFillColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSetStrokeColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSetFillColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSetStrokeColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextGetBlendMode: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSetBlendMode: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextFillRects: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSetBlendMode: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSetFillColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSetStrokeColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextGetBlendMode: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSetBlendMode: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextFillRects: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSetBlendMode: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSetFillColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSetStrokeColorWithColor: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextGetBlendMode: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSetBlendMode: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextFillRects: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+Apr 11 19:04:57 ians-air.nw.cougars.int GetOut[2071] <Error>: CGContextSetBlendMode: invalid context 0x0. This is a serious error. This application, or a library it uses, is using an invalid context  and is thereby contributing to an overall degradation of system stability and reliability. This notice is a courtesy: please fix this problem. It will become a fatal error in an upcoming update.
+2014-04-11 19:06:11.750 GetOut[2188:80b] Multi-tasking -> Device: YES, App: YES
+2014-04-11 19:06:11.761 GetOut[2188:80b] Unlimited access to network resources
+2014-04-11 19:06:11.980 GetOut[2188:80b] Resetting plugins due to page load.
+2014-04-11 19:06:12.026 GetOut[2188:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/0132726B-13FB-4C16-97DC-CC057978FEB4/GetOut.app/www/index.html
+2014-04-11 19:07:33.134 GetOut[2303:80b] Multi-tasking -> Device: YES, App: YES
+2014-04-11 19:07:33.141 GetOut[2303:80b] Unlimited access to network resources
+2014-04-11 19:07:33.290 GetOut[2303:80b] Resetting plugins due to page load.
+2014-04-11 19:07:33.327 GetOut[2303:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/08AA8449-494A-40E0-8B3B-493A611EB9AE/GetOut.app/www/index.html
+2014-04-11 19:07:59.245 GetOut[2375:80b] Multi-tasking -> Device: YES, App: YES
+2014-04-11 19:07:59.252 GetOut[2375:80b] Unlimited access to network resources
+2014-04-11 19:07:59.314 GetOut[2375:80b] Resetting plugins due to page load.
+2014-04-11 19:07:59.346 GetOut[2375:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/08AA8449-494A-40E0-8B3B-493A611EB9AE/GetOut.app/www/index.html
+2014-04-11 19:08:26.618 GetOut[2480:80b] Multi-tasking -> Device: YES, App: YES
+2014-04-11 19:08:26.631 GetOut[2480:80b] Unlimited access to network resources
+2014-04-11 19:08:26.876 GetOut[2480:80b] Resetting plugins due to page load.
+2014-04-11 19:08:26.917 GetOut[2480:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/3FEDCCA7-D90A-4320-A205-2360C3EA7F2B/GetOut.app/www/index.html
+2014-04-11 19:09:42.855 GetOut[2586:80b] Multi-tasking -> Device: YES, App: YES
+2014-04-11 19:09:42.862 GetOut[2586:80b] Unlimited access to network resources
+2014-04-11 19:09:43.021 GetOut[2586:80b] Resetting plugins due to page load.
+2014-04-11 19:09:43.077 GetOut[2586:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8EC35A4D-1DA5-41E4-A33F-2FA2F0F6F5C7/GetOut.app/www/index.html
+2014-04-11 19:10:15.272 GetOut[2692:80b] Multi-tasking -> Device: YES, App: YES
+2014-04-11 19:10:15.280 GetOut[2692:80b] Unlimited access to network resources
+2014-04-11 19:10:15.478 GetOut[2692:80b] Resetting plugins due to page load.
+2014-04-11 19:10:15.515 GetOut[2692:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/BDF2162B-8FF7-4107-B9C3-334F344093CC/GetOut.app/www/index.html
+2014-04-11 19:11:15.663 GetOut[2794:80b] Multi-tasking -> Device: YES, App: YES
+2014-04-11 19:11:15.675 GetOut[2794:80b] Unlimited access to network resources
+2014-04-11 19:11:15.888 GetOut[2794:80b] Resetting plugins due to page load.
+2014-04-11 19:11:15.935 GetOut[2794:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/16133C58-E79A-4099-AA4A-741020E5B769/GetOut.app/www/index.html
+2014-04-11 19:12:20.904 GetOut[2903:80b] Multi-tasking -> Device: YES, App: YES
+2014-04-11 19:12:20.914 GetOut[2903:80b] Unlimited access to network resources
+2014-04-11 19:12:21.083 GetOut[2903:80b] Resetting plugins due to page load.
+2014-04-11 19:12:21.120 GetOut[2903:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9E5620A1-7F95-42D5-B101-BDBC89B4E389/GetOut.app/www/index.html
+2014-04-11 19:13:14.162 GetOut[3020:80b] Multi-tasking -> Device: YES, App: YES
+2014-04-11 19:13:14.170 GetOut[3020:80b] Unlimited access to network resources
+2014-04-11 19:13:14.349 GetOut[3020:80b] Resetting plugins due to page load.
+2014-04-11 19:13:14.391 GetOut[3020:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/4F1089E8-C721-4044-AF0C-0FF4AA43197E/GetOut.app/www/index.html
+2014-04-11 19:15:01.613 GetOut[3128:80b] Multi-tasking -> Device: YES, App: YES
+2014-04-11 19:15:01.625 GetOut[3128:80b] Unlimited access to network resources
+2014-04-11 19:15:01.819 GetOut[3128:80b] Resetting plugins due to page load.
+2014-04-11 19:15:01.867 GetOut[3128:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/AC9A4124-4EDE-46CB-BA49-86DFD37467EB/GetOut.app/www/index.html
+2014-04-11 19:16:44.105 GetOut[3239:80b] Multi-tasking -> Device: YES, App: YES
+2014-04-11 19:16:44.118 GetOut[3239:80b] Unlimited access to network resources
+2014-04-11 19:16:44.299 GetOut[3239:80b] Resetting plugins due to page load.
+2014-04-11 19:16:44.348 GetOut[3239:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/E97B3608-D2CB-4AA5-AD4B-2BB3BA1AFB91/GetOut.app/www/index.html
+Terminating in response to SpringBoard's termination.
