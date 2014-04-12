@@ -1,18 +1,23 @@
 document.addEventListener('deviceready', onDeviceReady, false);
-
+var map;
 function onDeviceReady() {
 	
 	$('#deviceready').css('display', 'block');
 	
-	//shake.startWatch(onShake);
 	onShake();
+	
 }
 
 function onShake() {
 	
-	//shake.endWatch();
-	
+
 	$('#deviceready').fadeOut(600);
+	$('header').animate({
+		top: '0px',
+		opacity: 1
+	}, 600);
+	$('#loading').css('display', 'block');
+	
 	navigator.geolocation.getCurrentPosition(positionFound, error);
 	
 }
@@ -43,16 +48,58 @@ function positionFound(position) {
 function renderResults(results, status) {
 	
 	if (status == google.maps.places.PlacesServiceStatus.OK) {
-	    
-		var container = $("#content");
-		
-		$("#content").html(results[0].photos[0].getUrl({'maxWidth': 35, 'maxHeight': 35}));
-		
+
 		var template = Handlebars.compile($("#searchContent").html());
-		container.append (template(results));
-		container.fadeIn(500);
+		$("#search-list").append (template(results));
+		var template = Handlebars.compile($("#page-temp").html());
+		$('#search-page').append (template(results));
+		
+		renderHome(results);
 	
 	} else error();
+	
+}
+
+function renderHome(results) {
+	
+	var container = $("#search-list");
+	
+	$('#loading').css('display', 'none');
+	container.fadeIn(500);
+	
+	$('#search-list li').on('tap', function(event) {
+		
+		container.css('display', 'none');
+		var index = $(this).data('index');
+		
+		$('header').css('display', 'none');
+		renderMap(index, results);
+		
+	});
+	
+}
+
+function renderMap(index, results) {
+	
+	$('#map, #mapcover').css('display', 'block');
+	google.maps.event.trigger(map, 'resize');
+	map.setCenter(results[index].geometry.location);
+	var marker = new google.maps.Marker({
+		position: results[index].geometry.location,
+		map: map,
+		title: results[index].name
+	});
+	
+	$('.page').eq(index).css('display', 'block');
+	
+	$('.page button').on('tap', function(event) {
+		$('.page').eq(index).css('display', 'none');
+		$('#map, #mapcover').css('display', 'none');
+		$('header').css('display', 'block');
+		marker.setMap(null);
+		renderHome(results);
+	});
+	
 	
 }
 

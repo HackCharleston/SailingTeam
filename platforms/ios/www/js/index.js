@@ -4,13 +4,15 @@ function onDeviceReady() {
 	
 	$('#deviceready').css('display', 'block');
 	
-	shake.startWatch(onShake);
+	//shake.startWatch(onShake);
+	
+	$('body').bind('taphold', onShake);
 	
 }
 
 function onShake() {
 	
-	shake.endWatch();
+	//shake.endWatch();
 	
 	$('#deviceready').fadeOut(600);
 	$('header').animate({
