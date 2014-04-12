@@ -1139,3 +1139,8 @@ objc[29545]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.a
 2014-04-12 12:50:32.731 AdventureBuddy[40591:80b] Resetting plugins due to page load.
 2014-04-12 12:50:32.901 AdventureBuddy[40591:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/40FF2C5C-EAF6-4FF8-BD52-4CAEA10DF3CB/AdventureBuddy.app/www/index.html
 Terminating in response to SpringBoard's termination.
+2014-04-12 12:57:58.656 AdventureBuddy[40817:80b] Multi-tasking -> Device: YES, App: YES
+2014-04-12 12:57:58.670 AdventureBuddy[40817:80b] Unlimited access to network resources
+2014-04-12 12:57:58.883 AdventureBuddy[40817:80b] Resetting plugins due to page load.
+2014-04-12 12:57:59.120 AdventureBuddy[40817:80b] Finished load of: file:///Users/IanDilling/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/40FF2C5C-EAF6-4FF8-BD52-4CAEA10DF3CB/AdventureBuddy.app/www/index.html
+Terminating in response to SpringBoard's termination.

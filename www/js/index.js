@@ -5,6 +5,9 @@ function onDeviceReady() {
 	$('#deviceready').css('display', 'block');
 	
 	shake.startWatch(onShake);
+	$('#deviceready').on('tap', function(event) {
+		onShake();
+	});
 	
 }
 
