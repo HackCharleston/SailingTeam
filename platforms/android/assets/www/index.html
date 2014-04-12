@@ -13,9 +13,24 @@
             <div id="deviceready" class="blink">
                 <p class="event listening">Shake To Search</p>
             </div>
+            <ul id="content">
+            	<header>
+            		<ul>
+            			
+            		</ul>
+            	</header>
+            	<script id="searchContent" type="text/x-handlebars-template">
+					{{#.}}
+					<li>{{name}}</li>
+					{{/.}}
+            	</script>
+            </ul>
+            <div id="map"></div>
         </div>
-        <script type="text/javascript" src="lib/handlebars-v1.3.0.js"></script>
-        <script type="text/javascript" src="lib/jquery-2.1.0.js"></script>
+        <script type="text/javascript" src="js/lib/handlebars-v1.3.0.js"></script>
+        <script type="text/javascript" src="js/lib/jquery-2.1.0.js"></script>
+        <script type="text/javascript" src="js/lib/shake.js/shake.js"></script>
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=true&key=AIzaSyD1I3yDgblwZ9eX-KZAE5kT05pwgmj_BFQ"></script>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">

@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>GetOut</title>
     </head>
@@ -13,9 +13,40 @@
             <div id="deviceready" class="blink">
                 <p class="event listening">Shake To Search</p>
             </div>
+            <div id="content">
+	            <header>
+	        		<h1>AventureBuddy</h1>
+	        	</header>
+	        	<div id="loading"></div>
+	            <ul id="search-list">
+	            	<script id="searchContent" type="text/x-handlebars-template">
+						{{#.}}
+						<li data-index={{@index}}>
+							<h2>{{name}}</h2>
+							
+						</li>
+						{{/.}}
+	            	</script>
+	            </ul>
+	            <div id="search-page">
+	            	<script id="page-temp" type="text/x-handlebars-template">
+						{{#.}}
+						<div class="page">
+							<h2>{{name}}</h2>
+							<button>Back</button>
+						</div>
+						{{/.}}
+	            	</script>
+	            	<div id="mapcover"></div>
+	            	<div id="map"></div>
+	            </div>
+            </div>
         </div>
-        <script type="text/javascript" src="lib/handlebars-v1.3.0.js"></script>
-        <script type="text/javascript" src="lib/jquery-2.1.0.js"></script>
+        <script type="text/javascript" src="js/lib/handlebars-v1.3.0.js"></script>
+        <script type="text/javascript" src="js/lib/jquery-2.1.0.js"></script>
+        <script type="text/javascript" src="js/lib/jquery.mobile.custom.min.js"></script>
+        <script type="text/javascript" src="js/lib/shake.js/shake.js"></script>
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=true&key=AIzaSyD1I3yDgblwZ9eX-KZAE5kT05pwgmj_BFQ"></script>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">

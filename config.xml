@@ -1,12 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.IanDilling.getout" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>GetOut</name>
+<widget id="com.IanDilling.adventurebuddy" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>AdventureBuddy</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        An application used to find outdoor activites in the surrounding area.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="ianbjorndilling@gmail.com" href="http://cordova.io">
+        Ian Dilling
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <preference name="DisallowOverscroll" value="true"/>
+	<preference name="UIWebViewBounce" value="false"/>
 </widget>

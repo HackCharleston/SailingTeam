@@ -8,8 +8,8 @@
 
 html {
 	
-	width: 100%;
 	height: 100%;
+	width: 100%;
 	
 }
 
@@ -17,29 +17,18 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#E4E4E4;
-    background-image:linear-gradient(top, #000000 0%, #222222 51%);
-    background-image:-webkit-linear-gradient(top, #000000 0%, #222222 51%);
-    background-image:-ms-linear-gradient(top, #000000 0%, #222222 51%);
-    background-image:-webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(0, #000000),
-        color-stop(0.51, #222222)
-    );
-    background-attachment:fixed;
+    background-color:#FDFDFD;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;
-    height:100%;
-    width:100%;
+    height: 100%;
+	width: 100%;
 }
 
 /* Portrait layout (default) */
 .app {
     
-    width: 100%;
     height: 100%;
+	width: 100%;
     
 }
 
@@ -74,6 +63,42 @@ body {
 	
 }
 
+header {
+	
+	position: fixed;
+	top: -40px;
+	width: 100%;
+	height: 40px;
+	background-color: #000000;
+	opacity: 0.0;
+	color: white;
+	
+}
+
+header h1 {
+	
+	position: relative;
+	font-family: Papyrus, fantasy;
+	font-weight: normal;
+	font-size: 1.6em;
+	line-height: 40px;
+	text-align: center;
+	
+}
+
+#loading {
+	
+	position: absolute;
+	display: none;
+	width: 150px;
+	height: 150px;
+	top: calc(50% - 75px);
+	left: calc(50% - 75px);
+	background: url(../img/loading.gif) center center no-repeat;
+	background-size: cover;
+	
+}
+
 #deviceready p {
 	
 	position: relative;
@@ -82,3 +107,119 @@ body {
 	
 }
 
+#content {
+	
+	color: black;
+	height: 100%;
+	width: 100%;
+	
+}
+
+#search-list {
+	
+	position: relative;
+	top: 40px;
+	list-style: none;
+	display: none;
+	
+}
+
+#search-list li {
+	
+	position: relative;
+	height: 75px;
+	width: 100%;
+	border-bottom: 1px solid black;
+	overflow: none;
+	
+}
+
+#content li h2 {
+	
+	position: relative;
+	display: inline;
+	left: 20px;
+	font-size: 1.3em;
+	font-weight: normal;
+	line-height: 75px;
+	z-index: 100;
+	
+}
+
+#search-page {
+	
+	position: absolute;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	
+}
+
+.page {
+	
+	position: absolute;
+	top: 0px;
+	height: 80px;
+	width: 100%;
+	display: none;
+	
+}
+
+.page h2 {
+	
+	position: relative;
+	display: inline-block;
+	height: 50px;
+	width: 80%;
+	color: white;
+	background: #04A145;
+	float: right;
+	text-align: center;
+	line-height: 50px;
+	overflow: none;
+	
+}
+
+.page button {
+	
+	width: 20%;
+	height: 50px;
+	background: #265EA1;
+	color: white;
+	border: none;
+	
+}
+
+#map {
+	
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: calc(100% - 50px);
+	display: none;
+	
+}
+
+#mapcover {
+	
+	position: absolute;
+	bottom: 0;
+	height: 30px;
+	width: 60px;
+	z-index: 100;
+	display: none;
+	
+}
+
+/*background-image:linear-gradient(top, #000000 0%, #222222 51%);
+    background-image:-webkit-linear-gradient(top, #000000 0%, #222222 51%);
+    background-image:-ms-linear-gradient(top, #000000 0%, #222222 51%);
+    background-image:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #000000),
+        color-stop(0.51, #222222)
+    );
+    background-attachment:fixed;
+*/
